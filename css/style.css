@@ -1,0 +1,169 @@
+/* styling for the top bar starts here */
+.top_bar li {
+	display: inline;
+	padding-right: 15px;
+}
+
+.top_bar a {
+	text-decoration: none;
+	color: #DAF7A6; /* for now */
+}
+
+.top_bar {
+	background-color: #0C5C62;
+}
+
+.top_text {
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+
+.top_text nav {
+	margin-top: 8px;
+	margin-right: 0px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+
+.top_bar li a:hover {
+	color: #FFC300;
+}
+
+.top_text h1 {
+	color: white;
+	font-size: 30px;
+}
+/* styling for the top bar ends here */
+
+/* styling for the "about me" section starts here */
+.main1 {
+	background-color: white;
+}
+
+.text1 {
+	margin: 20px 0px;
+	position: relative;
+}
+
+.text_fold {
+	padding-left: 15px;
+	position: absolute;
+}
+
+.headings {
+	font-size: 30px;
+}
+
+.passions {
+	margin-top: 20px;
+}
+
+.passion {
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.passion h2 {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.passion h2:before {
+	content: "<";
+}
+
+.passion h2:after {
+	content: ">";
+}
+ /* styling for the "about me" section ends here */
+
+/* "my skills" styling starts here */
+.skillfold {
+	margin: 70px 0px;
+	position: relative;
+}
+
+.myskills {
+	margin-top: 30px;
+}
+.skillset {
+	background-color: #e3e3e3;
+}
+
+.skillcat {
+	padding-left: 10px;
+	margin-top: -70px;
+}
+
+#oneskill {
+	padding-top: 60px;
+	font-style: italic;
+}
+
+.skillcat li:before {
+	content: "<";
+}
+
+.skillcat li:after {
+	content: ">";
+}
+/* skills part ends here*/
+
+/* experience part starts here*/
+
+.exsection {
+	background-color: white;
+}
+
+.exfold {
+	margin: 70px 0px;
+}
+
+.qual {
+	padding-top: 30px;
+}
+
+/* testimonials part */
+.testimony {
+	background-color: #e3e3e3;
+	text-align: center;
+}
+
+.testimonyfold {
+	margin: 0px 50px;
+	padding: 30px;
+}
+.name_quote .names {
+	padding-top: 10px;
+}
+
+.quotes {
+	padding-top: 5px;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+/* testimonials part ends here */
+
+
+/* Contact Info starts here*/
+.contactsec {
+	background-color: #FFC300;
+}
+
+
+/* contact info part ends here */
+
+
+/* footer part starts here*/
+.footer_bar {
+	background-color: #0C5C62;
+}
+
+
+
+
+
