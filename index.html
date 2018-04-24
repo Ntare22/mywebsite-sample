@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
 	<title>Jim's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
 	<link rel="stylesheet" type="text/css" href="css/text.css">
@@ -12,12 +12,12 @@
 	<!-- the top bar from here -->
 	<header class="top_bar clearfix">
 		<div class="top_text clearfix">
-			<h1 class="grid_4">Jim;</h1>
+			<h1 class="grid_4">Jim;</h1> 
 			<nav class="grid_8">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Skills</a></li>
-				<li><a href="#">Experience</a></li>
+				<li><a href="#heading1">About</a></li>
+				<li><a href="#heading2">Skills</a></li>
+				<li><a href="#heading3">Experience</a></li>
 				<li><a href="#">Testimonials</a></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">Contact</a></li>
@@ -25,13 +25,21 @@
 		</div>
 	</header>
 	<!-- to here -->
+	
+	<!-- the starting page section starts here -->
+	<div class="container_12 startcontainer" >
+		<img class="container_12" src="img/sample.jpg" alt="Hi, I'm Jim">
+		<h1 class="startertext">Hi,<br> I'm Jim;</h1>
+		<h3 class="subtext">Full-Stack Developer & Amateur Athlete</h3>
+	</div>
+	<!-- Starting page ends her -->
 
 	<!-- The About Me section with the picture here -->
 	<div class="main1 container_12 clearfix">
 		<div class="text1 clearfix">
 			<img class="grid_6 alpha" src="img/jim.png" >
 			<div class="text_fold grid_6">
-				<h1 class="headings">About Me</h1>
+				<h1 class="headings" id="heading1">About Me</h1>
 				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -63,7 +71,7 @@
 
 	<!-- The My Skills Part Start Here -->
 
-	<div class="skillset clearfix">
+	<div class="skillset clearfix" id="heading2">
 		<div class="skillfold clearfix">
 			<div class="myskills grid_6">
 				<h1 class="headings">My Skills</h1>
@@ -89,7 +97,7 @@
 
 	<!-- The experience Part Start Here -->
 
-	<div class="exsection clearfix">
+	<div class="exsection clearfix" id="heading3">
 		<div class="exfold clearfix">
 			<div class="myex grid_6">
 				<h1 class="headings">My Experience & Work</h1>
@@ -123,22 +131,28 @@
 	<div class="testimony">
 		<div class="testimonyfold">
 			<h1 class="headings">Testimonials</h1>
-			<div class="name_quote">
-				<h3 class="names">John Doe</h3>
-					<blockquote class="quotes">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					</blockquote>
-				<h3 class="names">John Doe</h3>
-					<blockquote class="quotes">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					</blockquote>
-				<h3 class="names">Jane Doe</h3>
-					<blockquote class="quotes">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					</blockquote>
+			<div class="name_quote"> 
+				<div class="quote active">
+					<h3 class="names">Jim Doe</h3>
+						<blockquote class="quotes">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</blockquote>
+				</div>
+				<div class="quote">
+					<h3 class="names">John Doe</h3>
+						<blockquote class="quotes">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</blockquote>
+				</div>
+				<div class="quote">
+					<h3 class="names">Jane Doe</h3>
+						<blockquote class="quotes">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</blockquote>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -148,7 +162,7 @@
 	<!-- Projects section starts here -->
 	<div class="projectswrap">
 		<h1 class="headings">Previous & Current Projects</h1>
-			<div class="pwrap">
+			<div class="pwrap active">
 				<img src="">
 				<h2 id="projects">Project 1</h2>
 				<p id="projectdesc">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -189,7 +203,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 
-			<form action="#" method="get" class="contactform">
+			<form action="#" method="get" id="contactform" name="contactform">
 				<div class="formfold grid_6 omega">
 					<p>Please fill in your contact details below:</p>
 					<label for="">Name:</label>
@@ -214,5 +228,6 @@
 	</footer>
 	<!-- footer ends here -->
 </div>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
