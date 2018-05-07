@@ -1,5 +1,31 @@
+/*Adding Responsivity */
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+html { font-size:70%; }
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+/* It ends here */
+
 
 /* styling for the top bar starts here */
+.topBar {
+	position: fixed absolute;
+}
+
 .top_bar li {
 	display: inline;
 	padding-right: 15px;
@@ -24,8 +50,8 @@
 	margin-right: 0px;
 	padding-left: 10px;
 	text-align: right;
-}
 
+}
 
 .top_bar li a:hover {
 	color: #FFC300;
@@ -40,7 +66,7 @@
 /* styling for the starter page starts here*/
 .startcontainer {
 	position: relative;
-	top: 10px;
+	top: 0px;
 
 }
 .startertext {
@@ -82,6 +108,7 @@
 
 .headings {
 	font-size: 30px;
+	margin-bottom: 8px;
 }
 
 .passions {
@@ -109,12 +136,12 @@
 
 /* "my skills" styling starts here */
 .skillfold {
-	margin: 70px 0px;
+	margin: 40px 0px;
 	position: relative;
 }
 
 .myskills {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .skillset {
 	background-color: #e3e3e3;
@@ -122,12 +149,14 @@
 
 .skillcat {
 	padding-left: 10px;
-	margin-top: -70px;
+	margin-top: -20px;
 }
 
-#oneskill {
-	padding-top: 60px;
+.oneskill {
+	padding-top: 30px;
 	font-style: italic;
+	font-weight:bolder;
+	width: 200px;
 }
 
 .skillcat li:before {
@@ -137,6 +166,20 @@
 .skillcat li:after {
 	content: ">";
 }
+
+.borderskill {
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 340px;
+	height: 10px;
+}
+
+.skill {
+	background: #FFC300;
+	padding: 4px;
+}
+
+
 /* skills part ends here*/
 
 /* experience part starts here*/
@@ -149,44 +192,26 @@
 	margin: 70px 0px;
 }
 
-.qual {
-	padding-top: 30px;
-}
-
-/* testimonials part */
-.quote{
-	display: none;
-}
-
-.testimony {
-	background-color: #e3e3e3;
+.myex {
 	text-align: center;
 }
 
-.testimonyfold {
-	margin: 0px 50px;
-	padding: 30px;
+.resume {
+	width: 200px;
+	height: 40px;
+	background: #0C5C62;
+	border: none;
+	color: #DAF7A6;
+	font-weight: bold;
 }
-.name_quote .names {
-	padding-top: 10px;
-}
-
-.quotes {
-	padding-top: 5px;
-}
-
-blockquote {
-	font-style: italic;
-}
-
-/* testimonials part ends here */
 
 
 /* projects part starts here */
 
 .projectswrap {
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	background: #e3e3e3;
 }
 
 .projectswrap h1 {
