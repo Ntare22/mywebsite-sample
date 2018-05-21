@@ -1,3 +1,61 @@
+
+
+
+function occupationLoop() {
+  const occupationArray = ["Full Stack Developer", "Amateur Athlete", "Blogger", "Wannabe Data Scientist"];
+  const occupationSpace = document.getElementsByClassName("subtext")
+  let next;
+
+  for (i=0; i<accupationArray.length; ++i) {
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function nextQuote(){
       let next;
       const quotes = document.getElementsByClassName("pwrap");
@@ -18,3 +76,4 @@ function nextQuote(){
       setTimeout(nextQuote, 4000);
     }
     callQuotes();
+
